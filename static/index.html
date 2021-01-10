@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- date range picker -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"/>
+    <!-- datatables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css"/>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css"/>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <!-- jquery 3.5.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- dateRangePicker -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <!-- datatables -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+
+
+    <title>Analyser app!</title>
+</head>
+<body>
+
+<!-- header -->
+<section>
+    <div class="header">
+        Bwd FixGrids V4
+    </div>
+</section>
+<!-- /.header -->
+
+<!-- apps -->
+<section>
+    <div class="row">
+        <div class="apps col-md-12"></div>
+    </div>
+</section>
+<!-- /.apps -->
+
+<!-- balance -->
+<section>
+<p style="text-align:center;font-weight:bold;font-size:18px;margin:40px">
+    TODO Balance Section -- in progress
+</p>
+</section>
+<!-- /.balance -->
+
+<!-- trades -->
+<section>
+    <div class="row trades">
+        <div class="closed col-md-6">
+            <h4 class="text-center">Closed Trades</h4>
+            <table>
+                <thead>
+                <th>Nr</th>
+                <th>Open</th>
+                <th>Close</th>
+                <th>Execution</th>
+                <th>QuoteVol</th>
+                <th>Created</th>
+                <th>Closed</th>
+                </thead>
+            </table>
+        </div>
+        <div class="active col-md-6">
+            <h4 class="text-center">Active Trades</h4>
+            <table>
+                <thead>
+                <th>Nr</th>
+                <th>Open</th>
+                <th>Close</th>
+                <th>Execution</th>
+                <th>QuoteVol</th>
+                <th>Created</th>
+                <th>Converted Sell</th>
+                </thead>
+            </table>
+        </div>
+    </div>
+</section>
+<!-- /.trades -->
+
+</div>
+</body>
+</html>
