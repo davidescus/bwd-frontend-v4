@@ -1,6 +1,16 @@
+body {
+    font-size: 13px;
+}
+
 .header {
     text-align: center;
     font-size: 40px;
     padding: 20px;
     font-weight: bold;
+}
+
+.box {
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 10px;
 }

@@ -62,44 +62,77 @@
 </section>
 <!-- /.apps -->
 
-<!-- balance -->
+<!-- general overview -->
 <section>
-<p style="text-align:center;font-weight:bold;font-size:18px;margin:40px">
-    TODO Balance Section -- in progress
-</p>
+    <div class="row overview">
+        <!-- balance -->
+        <div class="col-md-6">
+            <div class="latest-balances box">
+                <h4 class="text-center">Latest Balances</h4>
+                <span></span>
+            </div>
+        </div>
+        <!-- /.balance -->
+
+        <!-- latest closed trades -->
+        <div class="latest-trades-closed col-md-6">
+            <div class="box">
+                <h4 class="text-center">Latest Closed Trades</h4>
+                <table>
+                    <thead>
+                    <th>Nr</th>
+                    <th>AppID</th>
+                    <th>Open</th>
+                    <th>Close</th>
+                    <th>Exec</th>
+                    <th>BVol</th>
+                    <th>Created</th>
+                    <th>ConvertedSell</th>
+                    <th>ClosedAt</th>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <!-- /. latest closed trades -->
+    </div>
 </section>
-<!-- /.balance -->
+<!-- /.trades -->
 
 <!-- trades -->
 <section>
     <div class="row trades">
         <div class="closed col-md-6">
-            <h4 class="text-center">Closed Trades</h4>
-            <table>
-                <thead>
-                <th>Nr</th>
-                <th>Open</th>
-                <th>Close</th>
-                <th>Execution</th>
-                <th>QuoteVol</th>
-                <th>Created</th>
-                <th>Closed</th>
-                </thead>
-            </table>
+            <div class="box">
+                <h4 class="text-center">Closed Trades</h4>
+                <table>
+                    <thead>
+                    <th>Nr</th>
+                    <th>Open</th>
+                    <th>Close</th>
+                    <th>Execution</th>
+                    <th>BVol</th>
+                    <th>Created</th>
+                    <th>ConvertedSell</th>
+                    <th>Closed</th>
+                    </thead>
+                </table>
+            </div>
         </div>
         <div class="active col-md-6">
-            <h4 class="text-center">Active Trades</h4>
-            <table>
-                <thead>
-                <th>Nr</th>
-                <th>Open</th>
-                <th>Close</th>
-                <th>Execution</th>
-                <th>QuoteVol</th>
-                <th>Created</th>
-                <th>Converted Sell</th>
-                </thead>
-            </table>
+            <div class="box">
+                <h4 class="text-center">Active Trades</h4>
+                <table>
+                    <thead>
+                    <th>Nr</th>
+                    <th>Open</th>
+                    <th>Close</th>
+                    <th>Execution</th>
+                    <th>BVol</th>
+                    <th>Created</th>
+                    <th>Converted Sell</th>
+                    </thead>
+                </table>
+            </div>
         </div>
     </div>
 </section>
